@@ -48,7 +48,7 @@ export const useShipStore = create<ShipStore>((set) => ({
   loadData: async () => {
     try {
       console.log("Loading ship data...");
-      const response = await fetch('/data/ship_data.csv');
+      const response = await fetch(`${import.meta.env.BASE_URL}data/ship_data_demo.csv`);
       
       if (!response.ok) {
         throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
@@ -161,7 +161,7 @@ export const useReceiverStore = create<ReceiverStore>((set) => ({
   loadData: async () => {
     try {
       console.log("Loading receiver data...");
-      const response = await fetch('/data/Rx_forearc.csv');
+      const response = await fetch(`${import.meta.env.BASE_URL}data/Rx_forearc.csv`);
 
       if (!response.ok) {
         throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);

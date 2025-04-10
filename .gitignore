@@ -27,4 +27,4 @@ dist-ssr
 references/*
 
 # Test
-src/Test/*
+Test/*

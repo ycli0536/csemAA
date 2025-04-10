@@ -2,6 +2,8 @@
 
 A web application for visualizing and analyzing Controlled Source Electromagnetic (CSEM) data collection. Interactive time series visualizations and spatial representations of position data will be helpful for understanding the data, data processing, and navigation.
 
+See demo [here](https://ycli0536.github.io/csemNVA/)
+
 ![image](docs/CSEM_navigationApp_screeshot.png)
 
 ![image](docs/Key_and_Constable_2021.png)
@@ -47,8 +49,8 @@ For more information about the navigation, please refer to the paper [Inverted l
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/ycli0536/csemAA.git
-   cd csemAA
+   git clone https://github.com/ycli0536/csemNVA.git
+   cd csemNVA
    ```
 
 2. Install dependencies
